@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.heading {
+    font-family: "Playfair Display", serif;
+}
+
+.container {
+    max-width: 890px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.hrozin {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0;
+}
+
+.overview-inner h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 12px 0 12px;
+}
+
+.overview-inner ul {
+    padding-left: 1.5rem;
+}
+
+li {
+    list-style-type: disc;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.scoller-top {
+    scroll-margin-top: 40px;
+}
+
+.header-part {
+    padding: 5px 0 10px;
+}
+
+.header-part p {
+    margin-bottom: 0px;
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.head-logo {
+    max-width: 35%;
+}
+
+.banner {
+    background: url(../images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 10px 0;
+}
+
+.banner h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.banner p {
+    width: 55%;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+/*table-date*/
+
+.gap-none-box {
+    margin-bottom: 0px !important;
+    box-shadow: 0 0 2px #999 !important;
+}
+
+.firts {
+    margin: 60px 20px 20px 20px;
+    text-align: center;
+}
+
+.firts img {
+    max-width: 150px;
+    max-height: 130px;
+    width: 100%;
+}
+
+.competitors {
+    padding-top: 40px;
+}
+
+.our-partner {
+    margin-top: 5px !important;
+    display: block !important;
+    font-size: 0.8em !important;
+    font-weight: 500 !important;
+    color: #9AAAB9 !important;
+    margin-bottom: 0px;
+}
+
+.company-rating {
+    margin-top: 7px;
+}
+
+.company-rating .five-stars {
+    color: #1261C9;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+.competitors-data {
+    position: relative;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px #999;
+    border: 0;
+    position: relative;
+    padding: 0;
+    border-bottom: none;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    color: #5C5C5C;
+    position: absolute;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+    display: inline-block;
+    background-color: #E8E8E8;
+    height: 24px;
+    min-width: 30px;
+    left: 0px;
+    top: 0px;
+    padding: 0 8px;
+}
+
+.ribbon-top-left {
+    top: -10px;
+    left: -10px;
+}
+
+.ribbon {
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.ribbon-top-left::before {
+    top: -2px;
+    right: 3px;
+}
+
+.ribbon-top-left::before,
+.ribbon-top-left::after {
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+.ribbon::before,
+.ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid #2980b9;
+}
+
+.ribbon-top-left span {
+    right: -27px;
+    top: 33px;
+    transform: rotate(-45deg);
+}
+
+.ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 10px 0;
+    background-color: #17475E;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ribbon-top-left::after {
+    bottom: 3px;
+    left: -2px;
+}
+
+.paln-btn a.plan-btn {
+    display: block;
+    border-radius: 2px;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color .2s ease, border-color .2s ease, color .2s ease;
+    word-break: break-word;
+    color: #ffffff;
+    background-color: #1261C9;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.paln-btn a.plan-btn::after {
+    content: '';
+    width: 0;
+    height: 11px;
+    opacity: 0;
+    transition: all 0.3s ease;
+    line-height: 0;
+}
+
+.paln-btn a.plan-btn:hover::after {
+    font-family: "FontAwesome";
+    content: '\f0a9';
+    opacity: 1;
+    margin-left: 6px;
+    width: 12px;
+    transition: all 0.3s ease;
+
+}
+
+a.office-site {
+    font-size: 13px;
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.call-now a {
+    text-align: center;
+    border: 1px solid #1261C9;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.call-now a:hover {
+    background: #1261C9;
+    color: #fff;
+}
+
+/*table-data*/
+
+.faqs {
+    margin: 40px 0;
+}
+
+.faqs li {
+    font-size: 16px;
+}
+
+.faqs h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.faqs p {
+    font-size: 16px;
+}
+
+.mobile-btn-recound {
+    display: none;
+}
+
+.info-dsnone {
+    display: block;
+}
+
+.first-hr {
+    opacity: 1;
+}
+
+.top-back a {
+    text-align: center;
+    border: 1px solid #1261C9;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-weight: 600;
+}
+
+.top-back a:hover {
+    background: #1261C9;
+    color: #fff;
+}
+
+.lession h4 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.lession p {
+    font-size: 16px;
+}
+
+.lession li {
+    font-size: 16px;
+}
+
+.lession .col-md-9 img {
+    margin-bottom: 20px;
+}
+
+.lession .top-back {
+    text-align: center;
+}
+
+.lession .top-back img {
+    width: 70%;
+}
+
+/*Footer*/
+
+.footer {
+    padding: 50px 0;
+    border-top: 1px solid #E8E8E8;
+    margin-top: 70px;
+}
+
+.footer-logo img {
+    width: 30%;
+}
+
+.footer-text p {
+    font-size: 12px;
+    color: rgb(155, 155, 155);
+    text-align: center;
+    margin-bottom: 0px;
+}
+.mobile-ribbon{
+    display: none;
+}
+/* Media Queries */
+@media screen and (max-width: 767px) {
+    .first-hr{
+        margin-bottom: 30px !important;
+    }
+    .desktop-ribbon{
+        display: none !important;
+    }
+
+/* ribbon */
+.link_wrap {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.link_wrap .acc_style04 {
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1;
+    width: 80%;
+    text-align: center;
+    margin-top: -15px;
+    border-radius: 6px;
+}
+
+.acc_style04 {
+    background: #17475E;
+    text-transform: uppercase;
+    padding: 1em 2em;
+    color: #fff;
+    transition: all 0.2s ease-in;
+    position: relative;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.acc_style04::before {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: -2px;
+    width: 24px;
+    height: 74%;
+    background: #dc974b;
+    clip-path: polygon(100% 0%, 100% 100%, 50% 75%, 0 100%, 0 0);
+    transition: all 0.2s ease-in;
+}
+    .hrozin {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header-part {
+        padding: 10px 0;
+    }
+
+    .head-logo {
+        max-width: 65%;
+    }
+
+    .banner p {
+        width: 100%;
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    .competitors {
+        padding-top: 30px;
+    }
+
+    .lession .top-back img {
+        width: 50%;
+    }
+
+    .footer {
+        padding: 30px 0;
+        border-top: 1px solid #E8E8E8;
+        margin-top: 20px;
+    }
+
+    .info-dsnone {
+        display: none;
+    }
+
+    .mobile-btn-recound {
+        display: block;
+    }
+
+    .firts {
+        margin: 0px 0px 20px 2px;
+        text-align: center;
+    }
+
+    .row.mobile-btn-recound .btn {
+        padding: 3px 0px;
+        font-size: 14px;
+        border-radius: 0px;
+        background: #dfdfdf;
+        color: #676767;
+        font-weight: 600;
+        border: none;
+    }
+
+    .lession h4 {
+        text-align: center;
+    }
+
+    .top-back a {
+        padding: 9px 20px;
+    }
+
+    .competitors-data {
+        padding: 18px 20px 10px;
+    }
+
+    .choice .call-now a {
+        display: inline-block;
+        padding: 10px 30px !important;
+    }
+
+    .choice .paln-btn a.plan-btn {
+        /* display: inline-block; */
+        padding: 10px 10px !important;
+        font-size: 20px;
+        line-height: normal;}
+
+        .paln-btn-block{display: block;}
+
+    .call-now a {
+        padding: 10px 10px;
+    }
+
+    .paln-btn a.plan-btn {
+        padding: 10px 10px;
+    }
+
+    .header-part p {
+        margin-bottom: 0px;
+        font-size: 11px;
+        margin-top: 0px;
+        line-height: normal;
+    }
+
+    .banner h1 {
+        font-size: calc(1.3rem + .6vw);
+    }
+
+    p#lastUpdated {
+        font-weight: 600;
+    }
+
+    .choice {
+        padding: 40px 10px 20px;
+    }
+    .identity-col{
+        padding: 0px 20px 20px !important;
+    }
+
+    .footer-text p {
+        font-size: 10px;
+    }
+
+    .footer-logo img {
+        width: 44%;
+    }
+
+    .polc P {
+        font-size: 16px;
+    }
+
+    .discover-parts a {
+        display: flow;
+    }
+    .getstart{font-size: calc(6.0vw - 0px) !important;}
+
+}
+
+
+
+@media screen and (max-width: 440px) {
+
+.choice .paln-btn a.plan-btn {
+        font-size: 17px;
+}
+.paln-btn a.plan-btn{font-size: 11.5px;}
+
+}
+
+
+@media screen and (max-width: 330px) {
+.link_wrap .acc_style04{
+            width: 90%;
+}
+
+}
+    
+ 
