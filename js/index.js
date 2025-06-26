@@ -19,7 +19,7 @@ const Tags = {
         'auraPoster'
     ],
     'Summary1': ['aura-summary'],
-    'Summary2': ['lifeLock-summary']
+    // 'Summary2': ['lifeLock-summary']
 };
 
 const url = 'https://protect.identityiq.com/idp/idprotect/ai-scams-single/?offercode=431286X1&goal_id=145&transactionid=bd8f49524d50425293ad8cdf75c4a700&offer_id=828&aff_id=1652&aff_sub=SUB_ID&fname=&lname=&email=&address=&city=&state=&zip=&phone=&source=TRAFFIC_TYPE&aff_sub2=&aff_sub3=&aff_click_id=CLICK_ID&utm_campaign=SUB_ID&utm_source=1652&utm_medium=affiliate&planname=SecureMax+with+Antivirus+And+VPN';
