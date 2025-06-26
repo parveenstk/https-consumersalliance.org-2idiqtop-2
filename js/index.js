@@ -32,7 +32,7 @@ const getUrlParams = () => {
     params.forEach((key) => {
         let value = urlParams.get(key);
         if (!value) {
-            console.log(`${key} - doesn't have any value.`);
+            // console.log(`${key} - doesn't have any value.`);
             value = defaultValues[key] || ''; // Use default or fallback to 'N/A'
         }
         parameter[key] = value;
@@ -41,20 +41,17 @@ const getUrlParams = () => {
     params2.forEach((key2) => {
         let value2 = urlParams.get(key2);
         if (!value2) {
-            console.log(`${key2} - doesn't have any value.`);
+            // console.log(`${key2} - doesn't have any value.`);
             value2 = ''
         }
         parameter2[key2] = value2;
     })
 
     if (parameter.sub4 === '') {
-        console.log("Andar aaya")
         Object.values(parameter2).forEach((value, i) => {
-            console.log("Loop chalaya");
 
             if (value) {
                 parameter.sub4 = parameter2[Object.keys(parameter2)[i]];
-                console.log("Update kraya", parameter.sub4, Object.keys(parameter2)[i]);
                 return;
             }
         })
