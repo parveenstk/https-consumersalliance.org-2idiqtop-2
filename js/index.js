@@ -96,7 +96,7 @@ const {
 const url = `https://trk.identityiq.com/3N116J1/2G2SGCP/?source_id=${source_id}&sub1=${sub1}&sub2=${sub2}&sub3=${sub3}&sub4=${sub4}&sub5=${sub5}`;
 
 // const url = 'https://protect.identityiq.com/idp/idprotect/ai-scams-single/?offercode=431286X1&goal_id=145&transactionid=bd8f49524d50425293ad8cdf75c4a700&offer_id=828&aff_id=1652&aff_sub=SUB_ID&fname=&lname=&email=&address=&city=&state=&zip=&phone=&source=TRAFFIC_TYPE&aff_sub2=&aff_sub3=&aff_click_id=CLICK_ID&utm_campaign=SUB_ID&utm_source=1652&utm_medium=affiliate&planname=SecureMax+with+Antivirus+And+VPN';
-const url2 = 'https://buy.aura.com/a-save?irclickid=UpUS8A0lhxycTVGQ6qUOJ1wxUksWgST-JQlH3M0&iradname=Online%20Tracking%20Link&iradid=899264&irgwc=1&c1=4944332&camp=12398&utm_source=g2gmedia&utm_medium=ir_affiliate&mktp=ir_affiliate&sharedid=';
+const url2 = 'http://aurainc.sjv.io/g1QbLA';
 const sum1 = 'https://www.aura.com/legal/insurance-summary-of-benefits';
 const sum2 = 'https://www.nortonlifelock.com/in/en/legal/';
 
