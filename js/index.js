@@ -78,9 +78,9 @@ const Tags = {
     'Aura': [
         'aura-browse-plans',
         'aura-official-site',
-        'auraPoster'
+        // 'auraPoster'
     ],
-    'Summary1': ['aura-summary'],
+    // 'Summary1': ['aura-summary'],
     // 'Summary2': ['lifeLock-summary']
 };
 
